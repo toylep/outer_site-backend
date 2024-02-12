@@ -1,4 +1,4 @@
-from rest_framework.generics import CreateAPIView,ListAPIView,RetrieveUpdateDestroyAPIView
+from rest_framework.generics import CreateAPIView, ListAPIView, RetrieveUpdateDestroyAPIView
 from partner.models import Document, Partner
 from partner.serializers import DocumentSerializer, PartnerSerializer
 # Create your views here.
